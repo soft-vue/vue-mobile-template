@@ -1,9 +1,9 @@
 {
   "name": "vue-mobile-template",
   "version": "1.0.0",
-  "description": "A vue mobile template with Vant UI",
-  "author": "rain",
-  "private": true,
+  "description": "<%=description%>",
+  "autor":"<%=author%>",
+  "private": "<%=private%>",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
@@ -38,5 +38,6 @@
     "script-ext-html-webpack-plugin": "^2.1.4",
     "vue-template-compiler": "^2.6.11",
     "webpack-bundle-analyzer": "^3.8.0"
-  }
+  },
+  "license": "<%=license%>"
 }
